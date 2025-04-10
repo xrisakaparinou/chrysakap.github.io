@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow:hidden;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(219, 239, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(145, 146, 150);
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar{
+ 
+    list-style-type: none;
+    align-items: center;
+    display:flex;
+    gap: 20px;
+    font-size: large;
+    color: rgb(145, 146, 150);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+#name{
+    font-size: x-large;
+    
+}
+
+.profil{
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+
+}
+.myphoto {
+    display: flex;
+    height: 250px;
+    width: 250px;   
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius:100%;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+#h {
+
+    font-size: 15px;
+    text-align: center;
+}
+
+#c{
+    font-size:45px;
+    text-align: center;
+}
+
+#s{
+    font-size:30px;
+    text-align: center;
+    color: #2182a2;
+}
+.buttons {
+    display: flex;
+    gap:30px;
+}
+#btn-cv{
+
+    background-color: white;
+    color: black;
+    padding: 13px 32px;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 9px #2182a2;
+    border:1px solid #add8e6;
+    
+}
+
+#btn-cv:active{
+    background-color: white;
+    box-shadow: 0 5px lightblue;
+    transform: translateY(4px);
+}
+
+#btn-contact{
+
+    background-color: #2182a2;
+    color: black;
+    padding: 13px 32px;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center; 
+    box-shadow: 0 9px white;
+    border:1px solid white;
+    
+}
+#btn-contact:active{
+    background-color: lightblue;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+.icons{
+
+    display: flex;
+    background-color: rgb(219, 239, 255);
+    transform: translateX(30%);
+    gap: 10px;
+    
+}
+.linkedin{
+    background-color: rgb(219, 239, 255);
+    border:none;
+    width: 15%;
+    height: 15%;
+}
+
+.github{
+    background-color: rgb(219, 239, 255);
+    border:none;
+    width: 15%;
+    height: 15%;
+}
