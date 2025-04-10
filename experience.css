@@ -75,9 +75,10 @@ a {
     background-color: white ;
     padding: 20px;
     width: 60%;
+    margin: 10px;
 }
 
-h1{
+h1,h2{
     
     color: #2182a2;
 }
