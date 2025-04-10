@@ -6,17 +6,21 @@ html {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    overflow:hidden;
+    overflow:auto;
 }
 
 body {
     width: 100%;
     margin: 0;
     height: 100%;
-    background-color: rgb(219, 239, 255);
+    background-image: url('background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    color: rgb(145, 146, 150);
 }
+
 
 .content {
     height: 100%;

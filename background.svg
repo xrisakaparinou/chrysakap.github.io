@@ -1,0 +1,129 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f7fa" />
+      <stop offset="100%" stop-color="#e8edf5" />
+    </linearGradient>
+    
+    <!-- Code pattern -->
+    <pattern id="codePattern" patternUnits="userSpaceOnUse" width="500" height="500" patternTransform="rotate(10)">
+      <text x="0" y="15" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">function() { return new Promise((resolve) => { setTimeout(resolve, 100); }); }</text>
+      <text x="30" y="35" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">const data = await fetch('/api/users').then(res => res.json());</text>
+      <text x="10" y="55" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">import React, { useState, useEffect } from 'react';</text>
+      <text x="25" y="75" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">.container { display: flex; justify-content: center; }</text>
+      <text x="5" y="95" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">git commit -m "Fix critical bug in authentication flow"</text>
+      <text x="15" y="115" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">SELECT * FROM users WHERE last_login > NOW() - INTERVAL 7 DAY;</text>
+      <text x="20" y="135" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">docker-compose up -d --build</text>
+      <text x="0" y="155" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">npm install --save-dev typescript @types/node</text>
+      <text x="30" y="175" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">class DataService implements IDataService {</text>
+      <text x="10" y="195" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">const handleSubmit = (e) => { e.preventDefault(); setLoading(true); }</text>
+      <text x="0" y="215" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">@media (max-width: 768px) { .sidebar { display: none; } }</text>
+      <text x="15" y="235" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">kubectl apply -f deployment.yaml</text>
+      <text x="20" y="255" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">async function fetchData() { try { const response = await api.get('/data'); } catch (e) {} }</text>
+      <text x="5" y="275" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">&lt;div className="container"&gt;&lt;h1&gt;Hello World&lt;/h1&gt;&lt;/div&gt;</text>
+      <text x="25" y="295" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">public static void main(String[] args) {</text>
+      <text x="10" y="315" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">addEventListener('DOMContentLoaded', () => {});</text>
+      <text x="0" y="335" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">def process_data(input_file, output_file):</text>
+      <text x="20" y="355" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">terraform apply -auto-approve</text>
+      <text x="15" y="375" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">const router = express.Router();</text>
+      <text x="30" y="395" fill="#4a6fa5" fill-opacity="0.05" font-family="monospace" font-size="12">let cache = new Map();</text>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+  <rect width="100%" height="100%" fill="url(#codePattern)" />
+  
+  <!-- Geometric elements -->
+  <g opacity="0.2">
+    <!-- Connected nodes representing network -->
+    <circle cx="200" cy="200" r="5" fill="#4895ef" />
+    <circle cx="350" cy="250" r="5" fill="#4895ef" />
+    <circle cx="500" cy="150" r="5" fill="#4895ef" />
+    <circle cx="650" cy="300" r="5" fill="#4895ef" />
+    <circle cx="800" cy="200" r="5" fill="#4895ef" />
+    <circle cx="950" cy="250" r="5" fill="#4895ef" />
+    <circle cx="300" cy="400" r="5" fill="#4895ef" />
+    <circle cx="450" cy="500" r="5" fill="#4895ef" />
+    <circle cx="600" cy="450" r="5" fill="#4895ef" />
+    <circle cx="750" cy="550" r="5" fill="#4895ef" />
+    <circle cx="900" cy="450" r="5" fill="#4895ef" />
+    
+    <!-- Connection lines -->
+    <line x1="200" y1="200" x2="350" y2="250" stroke="#4895ef" stroke-width="1" />
+    <line x1="350" y1="250" x2="500" y2="150" stroke="#4895ef" stroke-width="1" />
+    <line x1="500" y1="150" x2="650" y2="300" stroke="#4895ef" stroke-width="1" />
+    <line x1="650" y1="300" x2="800" y2="200" stroke="#4895ef" stroke-width="1" />
+    <line x1="800" y1="200" x2="950" y2="250" stroke="#4895ef" stroke-width="1" />
+    <line x1="350" y1="250" x2="300" y2="400" stroke="#4895ef" stroke-width="1" />
+    <line x1="500" y1="150" x2="450" y2="500" stroke="#4895ef" stroke-width="1" />
+    <line x1="650" y1="300" x2="600" y2="450" stroke="#4895ef" stroke-width="1" />
+    <line x1="800" y1="200" x2="750" y2="550" stroke="#4895ef" stroke-width="1" />
+    <line x1="950" y1="250" x2="900" y2="450" stroke="#4895ef" stroke-width="1" />
+    <line x1="300" y1="400" x2="450" y2="500" stroke="#4895ef" stroke-width="1" />
+    <line x1="450" y1="500" x2="600" y2="450" stroke="#4895ef" stroke-width="1" />
+    <line x1="600" y1="450" x2="750" y2="550" stroke="#4895ef" stroke-width="1" />
+    <line x1="750" y1="550" x2="900" y2="450" stroke="#4895ef" stroke-width="1" />
+  </g>
+  
+  <!-- Abstract code brackets and symbols -->
+  <g opacity="0.3">
+    <!-- Brackets -->
+    <path d="M100,150 C80,200 80,400 100,450" stroke="#4361ee" stroke-width="3" fill="none" />
+    <path d="M1100,150 C1120,200 1120,400 1100,450" stroke="#4361ee" stroke-width="3" fill="none" />
+    
+    <!-- Angle brackets -->
+    <path d="M150,500 L180,530 L150,560" stroke="#3f37c9" stroke-width="3" fill="none" />
+    <path d="M220,500 L190,530 L220,560" stroke="#3f37c9" stroke-width="3" fill="none" />
+    
+    <path d="M950,500 L980,530 L950,560" stroke="#3f37c9" stroke-width="3" fill="none" />
+    <path d="M1020,500 L990,530 L1020,560" stroke="#3f37c9" stroke-width="3" fill="none" />
+  </g>
+  
+  <!-- Floating tech symbols -->
+  <g opacity="0.25">
+    <!-- HTML tag -->
+    <text x="150" y="650" fill="#4361ee" font-family="monospace" font-size="24">&lt;/&gt;</text>
+    
+    <!-- Curly braces -->
+    <text x="250" y="650" fill="#4361ee" font-family="monospace" font-size="24">{ }</text>
+    
+    <!-- Parentheses -->
+    <text x="350" y="650" fill="#4361ee" font-family="monospace" font-size="24">( )</text>
+    
+    <!-- Square brackets -->
+    <text x="450" y="650" fill="#4361ee" font-family="monospace" font-size="24">[ ]</text>
+    
+    <!-- Hash symbol -->
+    <text x="550" y="650" fill="#4361ee" font-family="monospace" font-size="24">#</text>
+    
+    <!-- At symbol -->
+    <text x="650" y="650" fill="#4361ee" font-family="monospace" font-size="24">@</text>
+    
+    <!-- Dollar sign -->
+    <text x="750" y="650" fill="#4361ee" font-family="monospace" font-size="24">$</text>
+    
+    <!-- Equals -->
+    <text x="850" y="650" fill="#4361ee" font-family="monospace" font-size="24">=</text>
+    
+    <!-- Arrow function -->
+    <text x="950" y="650" fill="#4361ee" font-family="monospace" font-size="24">=></text>
+  </g>
+  
+  <!-- Animated pulse circles for visual interest -->
+  <circle cx="600" cy="400" r="300" fill="none" stroke="#4895ef" stroke-width="1">
+    <animate attributeName="r" from="300" to="310" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" from="0.1" to="0.05" dur="4s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="600" cy="400" r="200" fill="none" stroke="#4361ee" stroke-width="1">
+    <animate attributeName="r" from="200" to="210" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" from="0.12" to="0.07" dur="5s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="600" cy="400" r="100" fill="none" stroke="#3a0ca3" stroke-width="1">
+    <animate attributeName="r" from="100" to="110" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" from="0.14" to="0.09" dur="6s" repeatCount="indefinite" />
+  </circle>
+</svg>

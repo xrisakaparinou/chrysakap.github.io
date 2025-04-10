@@ -13,7 +13,10 @@ body {
     width: 100%;
     margin: 0;
     height: 100%;
-    background-color: rgb(219, 239, 255);
+    background-image: url('background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(145, 146, 150);
 }
@@ -138,20 +141,19 @@ img{
 .icons{
 
     display: flex;
-    background-color: rgb(219, 239, 255);
     transform: translateX(30%);
     gap: 10px;
     
 }
 .linkedin{
-    background-color: rgb(219, 239, 255);
+    
     border:none;
     width: 15%;
     height: 15%;
 }
 
 .github{
-    background-color: rgb(219, 239, 255);
+    
     border:none;
     width: 15%;
     height: 15%;
