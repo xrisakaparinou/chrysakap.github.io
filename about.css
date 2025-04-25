@@ -28,34 +28,73 @@ body {
     flex-direction: column;
     width: 100%;
     margin: 0;
-    color: rgb(145, 146, 150);
 }
-#name{
-    font-size: x-large;
-    
+
+.nav-cont{
+    position: relative;
+    background-color: #2182a2;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgb(5, 61, 114);
+    margin-top: 5px;
 }
+
 .navbar{
- 
-    list-style-type: none;
-    align-items: center;
-    display:flex;
-    gap: 20px;
-    font-size: large;
-    color: rgb(145, 146, 150);
-
-}
-a {
-    text-decoration: none;
-    
-}
-.nav-cont {
-    width: 100%;
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 150px;
+    gap:30px;
 }
 
+.navbar li{
+
+    list-style: none;
+    position: relative;
+}
+.navbar li a{
+
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.navbar li.active a{
+    color: #1a1a1a;
+}
+
+.highlight {
+    position: absolute;
+    background: #72c7ee;
+    height: 100%;
+    width: 90px;
+    top:0;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.navbar li a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: #72c7ee;
+    transition: 0.3s;
+
+}
+
+.navbar li:hover a::before {
+    width: 80%;
+}
+
+.navbar li.active a::before {
+    width: 0;
+}
 .about{
 
     display: flex;
@@ -84,4 +123,13 @@ h1{
 
 p{
     font-size: medium;
+}
+
+@keyframes glow-border{
+    0%{
+        box-shadow: 0 0 10px rgb(33, 131, 163) , 0 0 20px rgb(33, 131, 160);
+    }
+    100% {
+        box-shadow: 0 0 20px rgb(33, 131, 166) , 0 0 40px rgb(33, 131, 163);
+    }
 }
