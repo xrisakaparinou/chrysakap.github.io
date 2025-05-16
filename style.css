@@ -32,10 +32,11 @@ body {
 .nav-cont{
     position: relative;
     background-color: #2182a2;
-    padding: 20px;
     border-radius: 50px;
     box-shadow: 0 5px 15px rgb(5, 61, 114);
     margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar{
@@ -94,33 +95,7 @@ body {
 .navbar li.active a::before {
     width: 0;
 }
-/* .navbar{
- 
-    list-style-type: none;
-    align-items: center;
-    display:flex;
-    gap: 20px;
-    font-size: large;
-    color: white;
-    text-decoration: none;
-    
-   
-}
-a {
-    text-decoration: none;
-    color: black;
-}
 
-.nav-cont {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 150px;
-    background-color: #2182a2;
-    margin-top: 10px;
-    color: white;
-} */
 .profil{
     display: flex;
     flex-grow: 1;

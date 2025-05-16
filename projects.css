@@ -96,31 +96,35 @@ body {
 .navbar li.active a::before {
     width: 0;
 }
-.experience{
+.projects{
 
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 2%;
+    
+   
 }
 
-.experience-box{
+.projects-box{
 
+    
     align-items: center;
     justify-content: left;
     border-radius: 20px;
+    flex-grow: 1px;
     background-color: white ;
     padding: 20px;
-    width: 60%;
-    margin: 10px;
+    width: 40%;
 }
 
-h1,h2{
-    
+h1{
     color: #2182a2;
 }
 
+p{
+    font-size: medium;
+}
 
 @keyframes glow-border{
     0%{
@@ -130,4 +134,3 @@ h1,h2{
         box-shadow: 0 0 20px rgb(33, 131, 166) , 0 0 40px rgb(33, 131, 163);
     }
 }
-
